@@ -1,5 +1,6 @@
 # Site settings
 title: Hiya Love
+header_title: v9 Team Portal
 email: info@v9solutions.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -9,6 +10,42 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: v9solutions
 github_username:  v9solutions
+
+#Links
+
+### Card 1 
+
+card_header_one: General
+card_one_link_one: http://www.google.co.uk
+card_one_link_two: http://www.google.co.uk
+card_one_link_three: http://www.google.co.uk
+card_one_link_four: http://www.google.co.uk
+
+### Card 2 
+
+card_header_two: ABCD of Access Solutions
+card_two_link_one: http://www.google.co.uk
+card_two_link_two: http://www.google.co.uk
+card_two_link_three: http://www.google.co.uk
+card_two_link_four: http://www.google.co.uk
+
+### Card 3
+
+card_header_three: Velusso
+card_three_link_one: http://www.google.co.uk
+card_three_link_two: http://www.google.co.uk
+card_three_link_three: http://www.google.co.uk
+card_three_link_four: http://www.google.co.uk
+
+### Card 4 
+
+card_header_four: Learning
+card_four_link_one: http://www.google.co.uk
+card_four_link_two: http://www.google.co.uk
+card_four_link_three: http://www.google.co.uk
+card_four_link_four: http://www.google.co.uk
+
+
 
 # Build settings
 markdown: kramdown
