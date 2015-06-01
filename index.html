@@ -3,48 +3,14 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Handy Links</h1>
-
   <div class="row">
-	 <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>{{ site.card_header_one }}</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		  <a href="{{ site.card_one_link_one }}">Google</a>
-		</div>
+  {% for card in site.posts reversed %}
+    <div class="small-6 columns">
+  	  <div class="panel callout radius">
+  		  <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.group }}</h4>
+        <ul class="disc">{{ card.content }}</ul>
+  		</div>
 	  </div>
-	  <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>{{ site.card_header_two }}</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		</div>
-	  </div>
-	  <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>{{ site.card_header_three }}</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		</div>
-	  </div>
-	</div>
-  <div class="row">
-	 <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>{{ site.card_header_four }}</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		</div>
-	  </div>
-	  <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>This is a callout panel.</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		</div>
-	  </div>
-	  <div class="large-4 columns">
-	  	<div class="panel callout radius">
-		  <h5>This is a callout panel.</h5>
-		  <p>It's a little ostentatious, but useful for important content.</p>
-		</div>
-	  </div>
+  {% endfor %}
 	</div>
 </div>
