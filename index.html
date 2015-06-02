@@ -5,12 +5,17 @@ layout: default
 <div class="home">
   <div class="row">
   {% for card in site.posts reversed %}
-    <div class="small-6 columns">
-  	  <div class="panel callout radius">
-  		  <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.group }}</h4>
-        <ul class="disc">{{ card.content }}</ul>
-  		</div>
+    <div class="large-4 medium-6 columns">
+      <ul class="pricing-table">
+        <li class="price text-align" style="background-color: {{ card.color }};">
+          <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.group }}</h4>
+        </li>
+        <li class="description">
+          {{ card.content }}
+        </li>
+      </ul>
 	  </div>
   {% endfor %}
 	</div>
 </div>
+

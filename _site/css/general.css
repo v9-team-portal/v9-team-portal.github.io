@@ -5,3 +5,28 @@
 .icon-style {
 	padding-right: 7px;
 }
+
+.pricing-table .price, .pricing-table .description {
+	text-align: left;
+}
+
+.pricing-table .description {
+	border-bottom: 0px
+}
+
+.site-logo {
+	height: 100px;
+  	margin-top: -8px;
+}
+
+.pricing-table {
+	min-height: 385px;
+}
+
+.row {
+	max-width: none;
+}
+
+.description h5 {
+	padding: 10px 0px 10px 0px;
+}
