@@ -22,4 +22,4 @@
 
       <h5><a href="[link]">[link description]</a></h5>
       ```
-  4. Commit changes to master branch
+4. Commit changes to master branch
