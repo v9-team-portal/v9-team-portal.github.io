@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dashboard</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <!-- styling -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/foundation.min.css">
+  <link rel="stylesheet" href="/css/insta-feed.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/general.css">
+
+  <link rel="canonical" href="http://yourdomain.com/dashboard/">
+  <link rel="alternate" type="application/rss+xml" title="Hiya Love" href="http://yourdomain.com/feed.xml" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <!-- javascripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" ></script>
+	<script type='text/javascript' src='/javascripts/everydayiminstagrammin.min.js'></script>
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+  <!--   <h3><a class="site-title" href="/">v9 Team Portal</a></h3> -->
+      <section class="middle tab-bar-section">
+        <img class="site-logo" src="/images/logo.png">
+      </section>
+
+     <!-- <div class="trigger">
+        
+          
+          <a class="page-link" href="/dashboard/">Live Feeds >>></a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div> -->
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Dashboard</h1>
+  </header>
+  <h4>v9 Tweets</h4>
+  <h4>v9 Insta Feed</h4>
+
+  <ul class="instagram"></ul>
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+   <div class="footer-col-wrapper">
+        <ul class="inline-list right">
+          
+          <li>
+            <a href="https://github.com/v9solutions">
+              <i class="fa fa-lg fa-github"></i>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/v9solutions">
+              <i class="fa fa-lg fa-twitter"></i>
+            </a>
+          </li>
+          
+        </ul>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+<script>
+  console.log ('Hiya Love');
+
+$('.instagram').everydayImInstagrammin({
+  clientID: '2053685458',
+  accessToken: '2053685458.5b9e1e6.be80b5be9d5a41758ffed7c9a376bf3b',
+  numberPics: '12',
+  imgClass: 'insta-img',
+  captions: 'true',
+  captionAlign: 'top',
+  sequenceFadeIn: 'true',
+  sequenceDuration: 300,
+});
+</script>
+
+</html>
