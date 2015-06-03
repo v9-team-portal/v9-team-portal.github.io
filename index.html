@@ -5,9 +5,9 @@ layout: default
 <div class="home">
   <div class="row">
   {% for card in site.posts reversed %}
-    <div class="large-4 medium-6 columns">
+    <div class="large-4 medium-6 columns left">
       <ul class="pricing-table">
-        <li class="price text-align" style="background-color: {{ card.color }};">
+        <li class="price text-align" style="border-bottom: 4px solid {{ card.color }};">
           <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.group }}</h4>
         </li>
         <li class="description">

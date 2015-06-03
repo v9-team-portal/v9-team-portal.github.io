@@ -21,6 +21,7 @@
 
 .pricing-table {
 	min-height: 385px;
+	max-width: 350px;
 }
 
 .row {
@@ -29,4 +30,16 @@
 
 .description h5 {
 	padding: 10px 0px 10px 0px;
+}
+
+.pricing-table .price {
+	background-color: #fff;
+}
+
+.pricing-table {
+	border-radius: 6px;
+}
+
+h4 {
+	margin-bottom: 0.2rem;
 }
