@@ -6,7 +6,23 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- font awesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <!-- styling -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/foundation.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/insta-feed.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/font.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/general.css" | prepend: site.baseurl }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <!-- javascripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" ></script>
+	<script type='text/javascript' src='{{ "/javascripts/everydayiminstagrammin.min.js" | prepend: site.baseurl }}'></script>
+
 </head>
