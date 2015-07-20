@@ -11,3 +11,4 @@ icon: "medkit"
 <h5><a href="https://trello.com/b/9gDeFyrj/abcd-sprint-3">Trello Board</a></h5>
 <h5><a href="https://docs.google.com/spreadsheets/d/15ChmGyEsgDw0ecDUAKNCQYVu1PCxrXGWTDXHmlgc_Po/edit#gid=0">Time Tracker </a> <small>(spreadsheet)</small></h5>
 <h5><a href="https://bitbucket.org/v9solutions/dr1st">Bitbucket Repo</a></h5>
+<h5><a href="https://v9-confluence.atlassian.net/wiki/display/ABCD/ABCD">Confluence</a></h5>
