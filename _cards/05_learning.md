@@ -1,5 +1,5 @@
 ---
-group: "Learning"
+title: "Learning"
 color: "#a1b100"
 icon: "graduation-cap"
 ---

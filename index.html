@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="home">
+<div id="home">
   <div class="row">
-  {% for card in site.posts reversed %}
-    <div class="large-4 medium-6 columns left">
+  {% for card in site.cards %}
+    <div class="large-4 large-centered medium-6 columns left">
       <ul class="pricing-table">
         <li class="price text-align" style="border-bottom: 4px solid {{ card.color }};">
-          <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.group }}</h4>
+          <h4><i class="fa fa-{{ card.icon }} icon-style"></i> {{ card.title }}</h4>
         </li>
         <li class="description">
           {{ card.content }}

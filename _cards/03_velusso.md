@@ -1,5 +1,5 @@
 ---
-group: "Velusso"
+title: "Velusso"
 color: "#ffcc00"
 icon: "bicycle"
 ---

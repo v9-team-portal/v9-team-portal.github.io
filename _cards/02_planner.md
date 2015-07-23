@@ -1,5 +1,5 @@
 ---
-group: "Workforce Planner"
+title: "Workforce Planner"
 color: "#696969"
 icon: "user-md"
 ---

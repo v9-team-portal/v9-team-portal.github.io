@@ -1,0 +1,45 @@
+#home {
+	.panel.callout {
+		background-color: #fff;
+	}
+
+	.icon-style {
+		padding-right: 7px;
+	}
+
+	.pricing-table .price, .pricing-table .description {
+		text-align: left;
+	}
+
+	.pricing-table .description {
+		border-bottom: 0px
+	}
+
+	.pricing-table {
+		min-height: 421px;
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.row {
+		max-width: none;
+	}
+
+	.description h5 {
+		padding: 10px 0px 10px 0px;
+	}
+
+	.pricing-table .price {
+		background-color: #fff;
+	}
+
+	.pricing-table {
+		border-radius: 6px;
+	}
+
+	h4 {
+		margin-bottom: 0.2rem;
+	}
+
+}

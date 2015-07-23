@@ -13,3 +13,5 @@ github_username:  v9solutions
 
 # Build settings
 markdown: kramdown
+collections:
+- cards
